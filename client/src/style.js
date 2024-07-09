@@ -1,11 +1,4 @@
-import { styled } from '@mui/system';
-
-export const AppComponent = styled((theme) => ({
-  [theme.breakpoints.down('sm')]: {
-    mainContainer: {
-      flexDirection: 'column-reverse',
-    },
-  },
+export const appStyles = {
   appBar: {
     borderRadius: 15,
     margin: '30px 0',
@@ -20,4 +13,4 @@ export const AppComponent = styled((theme) => ({
   image: {
     marginLeft: '15px',
   },
-}));
+}
