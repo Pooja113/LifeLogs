@@ -4,7 +4,7 @@ import { Container, Grow, Grid, AppBar, Typography } from '@mui/material';
 import logo from './images/logo.jpg';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
-import { appStyles } from './style.js'; 
+import { appStyles } from './styles.js'; 
 
 const App = () => {
   return (
