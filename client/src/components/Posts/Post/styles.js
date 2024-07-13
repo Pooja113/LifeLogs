@@ -1,4 +1,4 @@
-export const PostStyles = ({
+export const PostStyles = {
   media: {
     height: 0,
     paddingTop: '56.25%',
@@ -47,4 +47,4 @@ export const PostStyles = ({
     display: 'flex',
     justifyContent: 'space-between',
   },
-});
+};
