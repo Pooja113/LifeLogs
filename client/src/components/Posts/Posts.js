@@ -2,14 +2,14 @@ import React from 'react';
 import { Grid, CircularProgress } from '@mui/material';
 import { useSelector } from 'react-redux';
 import Post from './Post/Post';
-import { PostStyles } from './styles';
+import { PostsStyles } from './styles';
 import { useTheme } from '@mui/material/styles';
 
 
 const Posts = ({ setCurrentId }) => {
   const theme = useTheme();
   const posts = useSelector((state) => state.posts);
-  const classes = PostStyles(theme)
+  const classes = PostsStyles(theme)
   console.log(posts.data)
   return (
     !posts?.data?.length ? <CircularProgress /> : (
